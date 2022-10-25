@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const LayoutMaxwidthWrapper =styled.div`
+export const LayoutMaxwidthWrapper =styled.main`
 display: flex;
 max-width: 1000px;
 justify-content: center;
@@ -67,14 +67,14 @@ font-size: 1rem;
 color: #62656c;
 max-width: 450px;
 margin-bottom: 1.5rem;
-// position: relative;
+
 `
 
 export const ProfileWrapper=styled.div`
 display: flex;
 color: #62656c;
 align-items: center;
-position: relative;
+// position: relative;
 justify-content: space-between;
 
 @media(max-width: 650px){
@@ -139,7 +139,7 @@ border-radius: .4rem;
 padding: 1rem 2rem;
 position: absolute;
 background-color: #48556a;
-transform: translate(-50%, 20%);
+transform: translate(-30%, 20%);
 
 @media(max-width: 650px){
     display: block;

@@ -59,9 +59,9 @@ const Home = () => {
             {!toggle ?
             <><ShareOption>
                       <Icon>share</Icon>
-                      <Icon><a href='#'><img src='../images/icon-facebook.svg' alt='' /></a></Icon>
-                      <Icon><a href='#'><img src='../images/icon-twitter.svg' alt='' /></a></Icon>
-                      <Icon><a href='#'><img src='../images/icon-pinterest.svg' alt='' /></a></Icon>
+                      <Icon><a href='facebook'><img src='../images/icon-facebook.svg' alt='' /></a></Icon>
+                      <Icon><a href='twitter'><img src='../images/icon-twitter.svg' alt='' /></a></Icon>
+                      <Icon><a href='pinterest'><img src='../images/icon-pinterest.svg' alt='' /></a></Icon>
                   </ShareOption>
                   {/* <div>
                     <AiFillCaretDown size={20} className='arrow' />
