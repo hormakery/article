@@ -157,5 +157,16 @@ cursor: pointer;
     letter-spacing: 1.2;
     text-transform: uppercase;
 }
+
+.icons{
+    &:focus {
+        outline-offset: 2px;
+       
+      }
+  
+      &:focus:not(.focus-visible) {
+        outline: none;
+      }
+}
 `
 
